@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+"""
+Automatically load modules and run tests in those modules.
+test.py mypackage.test yourpackage.test
+test.py mypackage.test.TestXYZ.testRun
+"""
 
 import unittest
 import sys
